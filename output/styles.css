@@ -10,4 +10,40 @@
   float: left;
 }
 
+/* line 17, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.button {
+  background-color: grey;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* line 30, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 35, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+/* line 45, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
