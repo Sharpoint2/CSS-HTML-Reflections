@@ -4,4 +4,10 @@
   height: 3rem;
 }
 
+/* line 10, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.logo {
+  display: flex;
+  float: left;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -6,9 +6,9 @@
 		"../input/variables.scss"
 	],
 	"sourcesContent": [
-		"\r\n//header style\r\n@import \"variables.scss\";\r\n.nav-btn\r\n{\r\n  width: $btn-width;\r\n  height:$btn-height;\r\n}",
+		"\r\n//header style\r\n@import \"variables.scss\";\r\n.nav-btn\r\n{\r\n  width: $btn-width;\r\n  height:$btn-height;\r\n}\r\n\r\n.logo\r\n{\r\n  display: flex;\r\n  float:left;\r\n\r\n}",
 		"//maps\r\n$breakpoints:\r\n(\r\n    'xs':575px,\r\n    'sm':576px,\r\n    'med':768px,\r\n    'lg':992px,\r\n\r\n\r\n);\r\n\r\n$btn-height:3rem;\r\n$btn-width:3rem;"
 	],
 	"names": [],
-	"mappings": ";AAGA,AAAA,QAAQ,CACR;EACE,KAAK,ECOI,IAAI;EDNb,MAAM,ECKI,IAAI;CDJf"
+	"mappings": ";AAGA,AAAA,QAAQ,CACR;EACE,KAAK,ECOI,IAAI;EDNb,MAAM,ECKI,IAAI;CDJf;;;AAED,AAAA,KAAK,CACL;EACE,OAAO,EAAE,IAAI;EACb,KAAK,EAAC,IAAI;CAEX"
 }
