@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "styles.css",
 	"sources": [
-		"../input/styles.scss"
+		"../input/styles.scss",
+		"../input/variables.scss"
 	],
 	"sourcesContent": [
-		"\r\n//header style\r\n\r\n.form-control-dark:focus {\r\n  color: #fff;\r\n  background-color: var(--bs-dark);\r\n  border-color: #fff;\r\n  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);\r\n}"
+		"\r\n//header style\r\n@import \"variables.scss\";\r\n.nav-btn\r\n{\r\n  width: $btn-width;\r\n  height:$btn-height;\r\n}",
+		"//maps\r\n$breakpoints:\r\n(\r\n    'xs':575px,\r\n    'sm':576px,\r\n    'med':768px,\r\n    'lg':992px,\r\n\r\n\r\n);\r\n\r\n$btn-height:3rem;\r\n$btn-width:3rem;"
 	],
 	"names": [],
-	"mappings": ";AAGA,AAAA,kBAAkB,AAAA,MAAM,CAAC;EACvB,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,cAAc;EAChC,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAM,CAAC,yBAAwB;CAClD"
+	"mappings": ";AAGA,AAAA,QAAQ,CACR;EACE,KAAK,ECOI,IAAI;EDNb,MAAM,ECKI,IAAI;CDJf"
 }
