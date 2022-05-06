@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "functions.css",
+	"sources": [
+		"../input/functions.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
