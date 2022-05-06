@@ -5,8 +5,8 @@
 		"../input/styles.scss"
 	],
 	"sourcesContent": [
-		""
+		"\r\n//header style\r\n\r\n.form-control-dark:focus {\r\n  color: #fff;\r\n  background-color: var(--bs-dark);\r\n  border-color: #fff;\r\n  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);\r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAGA,AAAA,kBAAkB,AAAA,MAAM,CAAC;EACvB,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,cAAc;EAChC,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAM,CAAC,yBAAwB;CAClD"
 }

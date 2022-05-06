@@ -1,2 +1,9 @@
+/* line 4, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,7 +5,7 @@
 		"../input/variables.scss"
 	],
 	"sourcesContent": [
-		"$breakpoints:\r\n(\r\n    'xs':575px,\r\n    'sm':576px,\r\n    'med':768px,\r\n    'lg':992px,\r\n\r\n\r\n);"
+		"//maps\r\n$breakpoints:\r\n(\r\n    'xs':575px,\r\n    'sm':576px,\r\n    'med':768px,\r\n    'lg':992px,\r\n\r\n\r\n);"
 	],
 	"names": [],
 	"mappings": ""
