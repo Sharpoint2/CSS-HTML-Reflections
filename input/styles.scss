@@ -21,6 +21,11 @@ padding:25%;
 
 }
 
+.navflex
+{
+  display: flex;
+}
+
 .button {
   background-color: grey; /* Green */
   border: none;
@@ -37,6 +42,7 @@ padding:25%;
 .dropbtn {
   background-color: #4CAF50;
   color: white;
+  margin: 0 20px 0 20px;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -72,7 +78,13 @@ padding:25%;
 
 // On hover, displays menu. Navbar is hidden on smaller screens, so no need for on click. On focus for those hard of sight
 .dropdown:hover .dropdown:focus .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+footer
+{
+  width:75%;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
