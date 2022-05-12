@@ -1,7 +1,9 @@
 .service-card1
 {
   display:flex;
-  width: 80%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
   border: 1px solid grey;
   align-items: center;
 }
@@ -21,7 +23,9 @@
 // ------------------------------------------------------------------------------------------------------------------------------
 .service-card2
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
   border: 1px solid rgb(70, 70, 209);
   align-items: center;
@@ -44,7 +48,9 @@
 
 .service-card3
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
   border: 1px solid rgb(37, 173, 37);
   align-items: center;
@@ -67,7 +73,9 @@
 
 .service-card4
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
   border: 1px solid rgb(246, 37, 37);
   align-items: center;
@@ -90,7 +98,9 @@
 
 .service-card5
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
   border: 1px solid rgb(145, 39, 207);
   align-items: center;
@@ -113,7 +123,9 @@
 
 .service-card6
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
   border: 1px solid rgb(205, 71, 71);
   align-items: center;
@@ -136,21 +148,23 @@
 
 .service-card7
 {
-  display:flex;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   width: 80%;
-  border: 1px solid grey;
+  border: 1px solid rgb(222, 57, 23);
   align-items: center;
 }
 
 .service-card7:hover
 {
   transform: translateY(10px);
-  background-color: grey;
+  background-color: rgb(222, 57, 23);
   color:white;
 
   .read-more7
   {
     background-color: white;
-    color:grey
+    color:rgb(222, 57, 23)
   }
 }

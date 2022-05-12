@@ -1,148 +1,162 @@
 /* line 1, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card1 {
   display: flex;
-  width: 80%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
   border: 1px solid grey;
   align-items: center;
 }
 
-/* line 9, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 11, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card1:hover {
   transform: translateY(10px);
   background-color: grey;
   color: white;
 }
 
-/* line 15, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 17, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card1:hover .read-more1 {
   background-color: white;
   color: grey;
 }
 
-/* line 22, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 24, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card2 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   border: 1px solid #4646d1;
   align-items: center;
 }
 
-/* line 30, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 34, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card2:hover {
   transform: translateY(10px);
   background-color: #4646d1;
   color: white;
 }
 
-/* line 36, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 40, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card2:hover .read-more2 {
   background-color: white;
   color: #4646d1;
 }
 
-/* line 45, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 49, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card3 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   border: 1px solid #25ad25;
   align-items: center;
 }
 
-/* line 53, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 59, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card3:hover {
   transform: translateY(10px);
   background-color: #25ad25;
   color: white;
 }
 
-/* line 59, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 65, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card3:hover .read-more3 {
   background-color: white;
   color: #25ad25;
 }
 
-/* line 68, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 74, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card4 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   border: 1px solid #f62525;
   align-items: center;
 }
 
-/* line 76, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 84, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card4:hover {
   transform: translateY(10px);
   background-color: #f62525;
   color: white;
 }
 
-/* line 82, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 90, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card4:hover .read-more4 {
   background-color: white;
   color: #f62525;
 }
 
-/* line 91, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 99, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card5 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   border: 1px solid #9127cf;
   align-items: center;
 }
 
-/* line 99, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 109, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card5:hover {
   transform: translateY(10px);
   background-color: #9127cf;
   color: white;
 }
 
-/* line 105, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 115, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card5:hover .read-more5 {
   background-color: white;
   color: #9127cf;
 }
 
-/* line 114, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 124, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card6 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
   border: 1px solid #cd4747;
   align-items: center;
 }
 
-/* line 122, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 134, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card6:hover {
   transform: translateY(10px);
   background-color: #cd4747;
   color: white;
 }
 
-/* line 128, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 140, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card6:hover .read-more6 {
   background-color: white;
   color: #cd4747;
 }
 
-/* line 137, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 149, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card7 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 80%;
-  border: 1px solid grey;
+  border: 1px solid #de3917;
   align-items: center;
 }
 
-/* line 145, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 159, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card7:hover {
   transform: translateY(10px);
-  background-color: grey;
+  background-color: #de3917;
   color: white;
 }
 
-/* line 151, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 165, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .service-card7:hover .read-more7 {
   background-color: white;
-  color: grey;
+  color: #de3917;
 }
 
 /*# sourceMappingURL=servicecards.css.map */
