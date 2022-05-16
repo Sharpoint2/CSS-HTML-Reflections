@@ -2,10 +2,29 @@
 //header style
 @import "variables.scss";
 @import "servicecards.scss";
+@import "mixins.scss";
+@import "buttons.scss";
 .nav-btn
 {
   width: $btn-width;
   height:$btn-height;
+}
+
+.review-text
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.review-writer
+{
+ opacity:0.8;
+}
+
+.dropbtn-readmore1
+{
+  @include dropbtn;
+
 }
 
 .logo
@@ -44,17 +63,17 @@ padding:25%;
 
 .services
 {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 5% 0 5%;
 }
 
+
+
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  margin: 0 20px 0 20px;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+ 
+
+
 }
 
 html
