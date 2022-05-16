@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #4646d1;
   align-items: center;
 }
@@ -49,7 +49,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #25ad25;
   align-items: center;
 }
@@ -72,7 +72,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #f62525;
   align-items: center;
 }
@@ -95,7 +95,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #9127cf;
   align-items: center;
 }
@@ -118,7 +118,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #cd4747;
   align-items: center;
 }
@@ -141,7 +141,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #de3917;
   align-items: center;
 }

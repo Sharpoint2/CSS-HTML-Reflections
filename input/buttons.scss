@@ -1,0 +1,13 @@
+@import "mixins.scss";
+
+.dropbtn-readmore1
+{
+  @include dropbtn;
+
+}
+
+.review-read-btn
+{
+    @include dropbtn;
+    background-color: rgb(25, 24, 24);
+}

@@ -5,7 +5,7 @@
 		"../input/mixins.scss"
 	],
 	"sourcesContent": [
-		""
+		"@mixin dropbtn {\r\n    background-color: #4CAF50;\r\n    color: white;\r\n    margin: 0 20px 0 20px;\r\n    padding: 16px;\r\n    font-size: 16px;\r\n    border: none;\r\n    cursor: pointer;\r\n  }"
 	],
 	"names": [],
 	"mappings": ""

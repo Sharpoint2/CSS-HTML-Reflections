@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #4646d1;
   align-items: center;
 }
@@ -49,7 +49,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #25ad25;
   align-items: center;
 }
@@ -72,7 +72,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #f62525;
   align-items: center;
 }
@@ -95,7 +95,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #9127cf;
   align-items: center;
 }
@@ -118,7 +118,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #cd4747;
   align-items: center;
 }
@@ -141,7 +141,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   border: 1px solid #de3917;
   align-items: center;
 }
@@ -159,30 +159,75 @@
   color: #de3917;
 }
 
-/* line 5, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 3, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.dropbtn-readmore1 {
+  background-color: #4CAF50;
+  color: white;
+  margin: 0 20px 0 20px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 9, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.review-read-btn {
+  background-color: #4CAF50;
+  color: white;
+  margin: 0 20px 0 20px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #191818;
+}
+
+/* line 7, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .nav-btn {
   width: 3rem;
   height: 3rem;
 }
 
-/* line 11, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 13, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.review-text {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 19, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.review-writer {
+  opacity: 0.8;
+}
+
+/* line 24, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.dropbtn-readmore1 {
+  background-color: #4CAF50;
+  color: white;
+  margin: 0 20px 0 20px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 30, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .logo {
   display: flex;
   float: left;
 }
 
-/* line 18, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 37, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .navbar-style {
   height: 2em;
   padding: 25%;
 }
 
-/* line 25, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 44, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .navflex {
   display: flex;
 }
 
-/* line 30, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 49, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .button {
   background-color: grey;
   /* Green */
@@ -196,42 +241,33 @@
   cursor: pointer;
 }
 
-/* line 45, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 64, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .services {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 5% 0 5%;
 }
 
-/* line 50, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  margin: 0 20px 0 20px;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-/* line 60, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 79, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 html
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 68, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 87, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .jumbotron-style {
   background-image: url("../img/home-oaVs.webp");
 }
 
-/* line 74, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 93, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .jumbotron-font {
   color: white;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 82, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 101, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -241,7 +277,7 @@ html
   z-index: 1;
 }
 
-/* line 92, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 111, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -249,24 +285,24 @@ html
   display: block;
 }
 
-/* line 100, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 119, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-/* line 103, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 122, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown:hover .dropdown:focus .dropdown-content {
   display: flex;
   flex-direction: column;
 }
 
-/* line 108, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 127, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 footer {
   width: 75%;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-/* line 114, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 133, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown:hover .dropdown:focus .dropbtn {
   background-color: #3e8e41;
 }
