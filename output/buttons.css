@@ -21,4 +21,28 @@
   background-color: #191818;
 }
 
+/* line 15, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.google-review {
+  background-color: #4CAF50;
+  color: white;
+  margin: 0 20px 0 20px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #08638e;
+}
+
+/* line 21, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.trustpilot-review {
+  background-color: #4CAF50;
+  color: white;
+  margin: 0 20px 0 20px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #16c016;
+}
+
 /*# sourceMappingURL=buttons.css.map */
