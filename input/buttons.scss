@@ -10,16 +10,61 @@
 {
     @include dropbtn;
     background-color: rgb(25, 24, 24);
+    margin:5px 0 5px 0;
 }
 
 .google-review
 {
     @include dropbtn;
     background-color:rgb(8, 99, 142);
+    margin:5px 0 5px 0;
 }
 
 .trustpilot-review
 {
     @include dropbtn;
-    background-color:rgb(22, 192, 22)
+    background-color:rgb(22, 192, 22);
+    margin:5px;
+}
+
+.read-more1
+{
+    color: white;
+    background-color:grey ;
+}
+
+.read-more2
+{
+    color: white;
+    background-color:rgb(70, 70, 209);
+}
+
+.read-more3
+{
+    color: white;
+    background-color: rgb(37, 173, 37);
+}
+
+.read-more4
+{
+    color: white;
+    background-color:rgb(246, 37, 37);
+}
+
+.read-more5
+{
+    color: white;
+    background-color:rgb(145, 39, 207);
+}
+
+.read-more6
+{
+    color: white;
+    background-color:rgb(205, 71, 71);
+}
+
+.read-more7
+{
+    color: white;
+    background-color:rgb(222, 57, 23);
 }

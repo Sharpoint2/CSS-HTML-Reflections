@@ -1,8 +1,25 @@
+
+@import "mixins.scss";
+
+.services
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+}
+
 .service-card1
 {
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
+  position:relative;
   width: 100%;
   border: 1px solid grey;
   align-items: center;
@@ -23,6 +40,11 @@
 // ------------------------------------------------------------------------------------------------------------------------------
 .service-card2
 {
+ 
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,10 +70,15 @@
 
 .service-card3
 {
+  
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-  width: 100%;
+    width: 100%;
   border: 1px solid rgb(37, 173, 37);
   align-items: center;
 }
@@ -73,6 +100,11 @@
 
 .service-card4
 {
+  
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -98,6 +130,11 @@
 
 .service-card5
 {
+  
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -108,6 +145,11 @@
 
 .service-card5:hover
 {
+ 
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
   transform: translateY(10px);
   background-color: rgb(145, 39, 207);
   color:white;
@@ -123,6 +165,11 @@
 
 .service-card6
 {
+ 
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -148,6 +195,11 @@
 
 .service-card7
 {
+  
+  text-align: center;
+  border-radius: 5%;
+  padding: 10%;
+  margin: 5% 0 5% 0;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -158,6 +210,7 @@
 
 .service-card7:hover
 {
+  
   transform: translateY(10px);
   background-color: rgb(222, 57, 23);
   color:white;
@@ -165,6 +218,60 @@
   .read-more7
   {
     background-color: white;
-    color:rgb(222, 57, 23)
+    color:rgb(222, 57, 23);
   }
+}
+
+@media (max-width:768px)
+{
+  .service-card1 .service-card2 .service-card3 .service-card4 .service-card5 .service-card6 .service-card7
+  {
+    width:100%;
+  }
+}
+
+.news-card1
+{
+  @include service-card;
+  text-align: left;
+  h3
+  {
+    color:grey;
+  }
+}
+
+.news-card1:hover
+{
+  transform: translateY(10px);
+}
+
+.news-card2
+{
+  @include service-card;
+  text-align: left;
+  h3
+  {
+    color:rgb(200, 39, 39);
+  }
+}
+
+.news-card2:hover
+{
+  transform: translateY(10px);
+}
+
+.news-card3
+{
+  align-items: left;
+  @include service-card;
+  text-align: left;
+  h3
+  {
+    color:rgb(232, 148, 232);
+  }
+}
+
+.news-card3:hover
+{
+  transform: translateY(10px);
 }

@@ -8,18 +8,23 @@
 {
   width: $btn-width;
   height:$btn-height;
+  margin:5px;
 }
 
 .review-text
 {
   font-weight: bold;
   font-style: italic;
+  color:white;
 }
 
 .review-writer
 {
  opacity:0.8;
+ color:white;
 }
+
+
 
 .dropbtn-readmore1
 {
@@ -31,19 +36,38 @@
 {
   display: flex;
   float:left;
-
+ 
 }
 
 .navbar-style
 {
 height:2em;
 padding:25%;
+}
+
+.bold
+{
+  font-weight: bold;
+  text-align: center;
+  color:white;
 
 }
 
 .navflex
 {
-  display: flex;
+  display:inline-flex;
+  align-items: center;
+  flex-direction: column;
+  
+ 
+
+}
+
+.nav-button
+{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 5px 10px 5px;
 }
 
 .button {
@@ -65,11 +89,16 @@ padding:25%;
   flex-wrap: wrap;
 }
 
-.services
+
+.review
 {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 5% 0 5%;
+  padding:3%;
+}
+
+.white-text
+{
+  color:white;
 }
 
 .news-image
@@ -80,8 +109,9 @@ padding:25%;
 
 .news-footer
 {
-  margin: 0 5% 0 5%;
+  margin: 20px 5% 0 5%;
   border-top: 0.5px solid black;
+  width: 95%;
 }
 
 
@@ -126,12 +156,22 @@ padding:25%;
 }
 
 // Change color of dropdown links on hover 
-.dropdown-content a:hover {background-color: #f1f1f1}
+ a:hover .nav-item:hover
+ {
+  .dropbtn-readmore1
+  {
+   background-color: #f1f1f1
+  }
+ }
 
 // On hover, displays menu. Navbar is hidden on smaller screens, so no need for on click. On focus for those hard of sight
-.dropdown:hover .dropdown:focus .dropdown-content {
+.dropbtn-readmore1:hover .dropdown:focus 
+{
+  .dropdown-content 
+  {
   display: flex;
   flex-direction: column;
+  }
 }
 
 footer
@@ -142,4 +182,15 @@ footer
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropdown:focus .dropbtn {
   background-color: #3e8e41;
+}
+
+//media queries
+@media (max-width:768px)
+{
+  .nav-button
+  {
+    display: none;
+    
+  }
+
 }

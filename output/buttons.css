@@ -19,9 +19,10 @@
   border: none;
   cursor: pointer;
   background-color: #191818;
+  margin: 5px 0 5px 0;
 }
 
-/* line 15, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+/* line 16, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
 .google-review {
   background-color: #4CAF50;
   color: white;
@@ -31,9 +32,10 @@
   border: none;
   cursor: pointer;
   background-color: #08638e;
+  margin: 5px 0 5px 0;
 }
 
-/* line 21, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+/* line 23, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
 .trustpilot-review {
   background-color: #4CAF50;
   color: white;
@@ -43,6 +45,49 @@
   border: none;
   cursor: pointer;
   background-color: #16c016;
+  margin: 5px;
+}
+
+/* line 30, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more1 {
+  color: white;
+  background-color: grey;
+}
+
+/* line 36, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more2 {
+  color: white;
+  background-color: #4646d1;
+}
+
+/* line 42, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more3 {
+  color: white;
+  background-color: #25ad25;
+}
+
+/* line 48, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more4 {
+  color: white;
+  background-color: #f62525;
+}
+
+/* line 54, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more5 {
+  color: white;
+  background-color: #9127cf;
+}
+
+/* line 60, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more6 {
+  color: white;
+  background-color: #cd4747;
+}
+
+/* line 66, ../Scion Projects/CSS HTML Reflections/input/buttons.scss */
+.read-more7 {
+  color: white;
+  background-color: #de3917;
 }
 
 /*# sourceMappingURL=buttons.css.map */

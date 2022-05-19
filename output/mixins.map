@@ -5,7 +5,7 @@
 		"../input/mixins.scss"
 	],
 	"sourcesContent": [
-		"@mixin dropbtn {\r\n    background-color: #4CAF50;\r\n    color: white;\r\n    margin: 0 20px 0 20px;\r\n    padding: 16px;\r\n    font-size: 16px;\r\n    border: none;\r\n    cursor: pointer;\r\n  }"
+		"@mixin dropbtn {\r\n    background-color: #4CAF50;\r\n    color: white;\r\n    margin: 0 20px 0 20px;\r\n    padding: 16px;\r\n    font-size: 16px;\r\n    border: none;\r\n    cursor: pointer;\r\n  }\r\n\r\n  @mixin service-card\r\n  {\r\n    text-align: center;\r\n    border-radius: 5%;\r\n    padding: 10%;\r\n    margin: 5% 0 5% 0;\r\n      display:flex;\r\n      flex-wrap: wrap;\r\n      flex-direction: column;\r\n    width: 100%;\r\n    border: 1px solid rgb(222, 57, 23);\r\n    align-items: center;\r\n\r\n  }"
 	],
 	"names": [],
 	"mappings": ""
