@@ -220,20 +220,22 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
   text-align: left;
 }
 
-/* line 237, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 239, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card1 h3 {
   color: grey;
 }
 
-/* line 243, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 245, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card1:hover {
   transform: translateY(10px);
 }
 
-/* line 248, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 250, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2 {
   text-align: center;
   border-radius: 5%;
@@ -245,22 +247,23 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
   text-align: left;
 }
 
-/* line 252, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 257, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2 h3 {
   color: #c82727;
 }
 
-/* line 258, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 263, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2:hover {
   transform: translateY(10px);
 }
 
-/* line 263, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 268, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3 {
-  align-items: left;
   text-align: center;
   border-radius: 5%;
   padding: 10%;
@@ -271,15 +274,18 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
+  align-items: left;
   text-align: left;
 }
 
-/* line 268, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 276, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3 h3 {
   color: #e894e8;
 }
 
-/* line 274, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 282, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3:hover {
   transform: translateY(10px);
 }
@@ -405,42 +411,43 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
+  margin-left: 0;
 }
 
-/* line 35, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 36, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .logo {
   display: flex;
   float: left;
 }
 
-/* line 42, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 43, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .navbar-style {
   height: 2em;
   padding: 25%;
 }
 
-/* line 48, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 49, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .bold {
   font-weight: bold;
   text-align: center;
   color: white;
 }
 
-/* line 56, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 57, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .navflex {
   display: inline-flex;
   align-items: center;
   flex-direction: column;
 }
 
-/* line 66, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 67, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .nav-button {
   display: flex;
   flex-wrap: wrap;
   margin: 0 5px 10px 5px;
 }
 
-/* line 73, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 74, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .button {
   background-color: grey;
   /* Green */
@@ -450,59 +457,81 @@
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
 }
 
-/* line 86, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
-.email {
-  display: flex;
-  flex-wrap: wrap;
+/* line 87, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.footer-style {
+  width: 100%;
+  padding: 0 5% 0 5%;
+  color: white;
+  justify-content: center;
 }
 
-/* line 93, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 96, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.email {
+  margin: 10px 5% 0 5%;
+  padding-bottom: 10px;
+}
+
+/* line 104, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.email-title {
+  margin: 10px 5% 10px 5%;
+}
+
+/* line 109, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.email-background {
+  background-color: lightgray;
+}
+
+/* line 114, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .review {
   margin: 0 5% 0 5%;
   padding: 3%;
 }
 
-/* line 99, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 120, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .white-text {
   color: white;
 }
 
-/* line 104, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 125, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .news-image {
+  margin-top: 0;
   width: 100%;
   height: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
 }
 
-/* line 110, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 134, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .news-footer {
   margin: 20px 5% 0 5%;
   border-top: 0.5px solid black;
   width: 95%;
+  display: inline-block;
+  padding-top: 5px;
 }
 
-/* line 122, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 148, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* line 127, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 153, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .jumbotron-style {
   background-image: url("../img/home-oaVs.webp");
 }
 
-/* line 133, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 159, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .jumbotron-font {
   color: white;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 141, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 167, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -512,7 +541,7 @@
   z-index: 1;
 }
 
-/* line 151, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 177, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -520,30 +549,30 @@
   display: block;
 }
 
-/* line 161, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 187, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 a:hover .nav-item:hover .dropbtn-readmore1 {
   background-color: #f1f1f1;
 }
 
-/* line 170, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 197, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropbtn-readmore1:hover .dropdown:focus .dropdown-content {
   display: flex;
   flex-direction: column;
 }
 
-/* line 177, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 204, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 footer {
   width: 75%;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-/* line 183, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 210, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown:hover .dropdown:focus .dropbtn {
   background-color: #3e8e41;
 }
 
 @media (max-width: 768px) {
-  /* line 190, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+  /* line 217, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
   .nav-button {
     display: none;
   }

@@ -29,6 +29,7 @@
 .dropbtn-readmore1
 {
   @include dropbtn;
+  margin-left: 0;
 
 }
 
@@ -79,16 +80,36 @@ padding:25%;
   text-decoration: none;
  
   font-size: 16px;
-  margin: 4px 2px;
+  //margin: 4px 2px;
   cursor: pointer;
 }
 
-.email
+.footer-style
 {
-  display: flex;
-  flex-wrap: wrap;
+  width:100%;
+  padding:0 5% 0 5%;
+  color:white;
+  justify-content: center;
+
 }
 
+.email 
+{
+  margin:10px 5% 0 5%;
+  padding-bottom: 10px;
+ 
+  
+}
+
+.email-title
+{
+  margin:10px 5% 10px 5%;
+}
+
+.email-background
+{
+  background-color: lightgray;
+}
 
 .review
 {
@@ -103,8 +124,11 @@ padding:25%;
 
 .news-image
 {
+  margin-top: 0;
   width: 100%;
   height:50%;
+  object-fit: cover;
+  margin-bottom: 5px;
 }
 
 .news-footer
@@ -112,6 +136,8 @@ padding:25%;
   margin: 20px 5% 0 5%;
   border-top: 0.5px solid black;
   width: 95%;
+  display:inline-block;
+  padding-top: 5px;
 }
 
 
@@ -160,7 +186,8 @@ padding:25%;
  {
   .dropbtn-readmore1
   {
-   background-color: #f1f1f1
+   background-color: #f1f1f1;
+   
   }
  }
 

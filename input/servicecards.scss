@@ -233,6 +233,8 @@
 .news-card1
 {
   @include service-card;
+  padding-top: 0;
+  padding-bottom:5px;
   text-align: left;
   h3
   {
@@ -248,6 +250,9 @@
 .news-card2
 {
   @include service-card;
+  padding-top: 0;
+  padding-bottom:5px;
+ 
   text-align: left;
   h3
   {
@@ -262,8 +267,11 @@
 
 .news-card3
 {
-  align-items: left;
   @include service-card;
+  padding-top: 0;
+  padding-bottom:5px;
+  align-items: left;
+  
   text-align: left;
   h3
   {

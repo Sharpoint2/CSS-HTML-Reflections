@@ -220,20 +220,22 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
   text-align: left;
 }
 
-/* line 237, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 239, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card1 h3 {
   color: grey;
 }
 
-/* line 243, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 245, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card1:hover {
   transform: translateY(10px);
 }
 
-/* line 248, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 250, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2 {
   text-align: center;
   border-radius: 5%;
@@ -245,22 +247,23 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
   text-align: left;
 }
 
-/* line 252, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 257, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2 h3 {
   color: #c82727;
 }
 
-/* line 258, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 263, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card2:hover {
   transform: translateY(10px);
 }
 
-/* line 263, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 268, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3 {
-  align-items: left;
   text-align: center;
   border-radius: 5%;
   padding: 10%;
@@ -271,15 +274,18 @@
   width: 100%;
   border: 1px solid #de3917;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 5px;
+  align-items: left;
   text-align: left;
 }
 
-/* line 268, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 276, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3 h3 {
   color: #e894e8;
 }
 
-/* line 274, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
+/* line 282, ../Scion Projects/CSS HTML Reflections/input/servicecards.scss */
 .news-card3:hover {
   transform: translateY(10px);
 }
