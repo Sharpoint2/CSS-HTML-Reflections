@@ -525,13 +525,18 @@
 }
 
 /* line 159, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+.star-rating {
+  color: gold;
+}
+
+/* line 164, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .jumbotron-font {
   color: white;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 167, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 172, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -541,7 +546,7 @@
   z-index: 1;
 }
 
-/* line 177, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 182, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -549,30 +554,36 @@
   display: block;
 }
 
-/* line 187, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 192, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 a:hover .nav-item:hover .dropbtn-readmore1 {
   background-color: #f1f1f1;
 }
 
-/* line 197, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 202, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropbtn-readmore1:hover .dropdown:focus .dropdown-content {
   display: flex;
   flex-direction: column;
 }
 
-/* line 204, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 209, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 footer {
   width: 75%;
 }
 
+/* line 214, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+a {
+  text-decoration: underline;
+  color: white;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
-/* line 210, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+/* line 221, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
 .dropdown:hover .dropdown:focus .dropbtn {
   background-color: #3e8e41;
 }
 
 @media (max-width: 768px) {
-  /* line 217, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
+  /* line 228, ../Scion Projects/CSS HTML Reflections/input/styles.scss */
   .nav-button {
     display: none;
   }

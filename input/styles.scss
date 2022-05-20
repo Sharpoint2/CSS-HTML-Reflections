@@ -156,6 +156,11 @@ padding:25%;
  
 }
 
+.star-rating
+{
+  color:gold;
+}
+
 .jumbotron-font
 {
   color:white;
@@ -206,6 +211,12 @@ footer
   width:75%;
 }
 
+a
+{
+  text-decoration: underline;
+  color: white;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropdown:focus .dropbtn {
   background-color: #3e8e41;
@@ -221,3 +232,4 @@ footer
   }
 
 }
+
