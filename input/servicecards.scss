@@ -23,6 +23,11 @@
   width: 100%;
   border: 1px solid grey;
   align-items: center;
+  i
+  {
+    background-color: grey;
+    border-radius: 100%;
+  }
 }
 
 .service-card1:hover
@@ -31,7 +36,7 @@
   background-color: grey;
   color:white;
 
-  .read-more1
+  .read-more1, i 
   {
     background-color: white;
     color:grey
@@ -51,6 +56,11 @@
   width: 100%;
   border: 1px solid rgb(70, 70, 209);
   align-items: center;
+  i
+  {
+    background-color: rgb(70, 70, 209);
+    border-radius: 100%;
+  }
 }
 
 .service-card2:hover
@@ -59,7 +69,7 @@
   background-color: rgb(70, 70, 209);
   color:white;
 
-  .read-more2
+  .read-more2, i
   {
     background-color: white;
     color:rgb(70, 70, 209)
@@ -81,6 +91,11 @@
     width: 100%;
   border: 1px solid rgb(37, 173, 37);
   align-items: center;
+  i
+  {
+    background-color: rgb(37, 173, 37);
+    border-radius: 100%;
+  }
 }
 
 .service-card3:hover
@@ -89,7 +104,7 @@
   background-color: rgb(37, 173, 37);
   color:white;
 
-  .read-more3
+  .read-more3, i
   {
     background-color: white;
     color:rgb(37, 173, 37)
@@ -111,6 +126,11 @@
   width: 100%;
   border: 1px solid rgb(246, 37, 37);
   align-items: center;
+  i
+  {
+    background-color: rgb(246, 37, 37);
+    border-radius: 100%;
+  }
 }
 
 .service-card4:hover
@@ -119,7 +139,7 @@
   background-color: rgb(246, 37, 37);
   color:white;
 
-  .read-more4
+  .read-more4, i
   {
     background-color: white;
     color:rgb(246, 37, 37)
@@ -141,6 +161,12 @@
   width: 100%;
   border: 1px solid rgb(145, 39, 207);
   align-items: center;
+  i
+  {
+    background-color: rgb(145, 39, 207);
+    border-radius: 100%;
+  }
+  
 }
 
 .service-card5:hover
@@ -154,7 +180,7 @@
   background-color: rgb(145, 39, 207);
   color:white;
 
-  .read-more5
+  .read-more5, i
   {
     background-color: white;
     color:rgb(145, 39, 207)
@@ -176,6 +202,11 @@
   width: 100%;
   border: 1px solid rgb(205, 71, 71);
   align-items: center;
+  i
+  {
+    background-color: rgb(205, 71, 71);
+    border-radius: 100%;
+  }
 }
 
 .service-card6:hover
@@ -184,7 +215,7 @@
   background-color: rgb(205, 71, 71);
   color:white;
 
-  .read-more6
+  .read-more6, i
   {
     background-color: white;
     color:rgb(205, 71, 71)
@@ -206,6 +237,11 @@
   width: 100%;
   border: 1px solid rgb(222, 57, 23);
   align-items: center;
+  i
+  {
+    background-color: rgb(222, 57, 23);
+    border-radius: 100%;
+  }
 }
 
 .service-card7:hover
@@ -215,7 +251,7 @@
   background-color: rgb(222, 57, 23);
   color:white;
 
-  .read-more7
+  .read-more7, i 
   {
     background-color: white;
     color:rgb(222, 57, 23);
