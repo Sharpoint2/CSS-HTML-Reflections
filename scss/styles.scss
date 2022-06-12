@@ -1,9 +1,9 @@
 
 //header style
-@import "variables.scss";
-@import "servicecards.scss";
-@import "mixins.scss";
-@import "buttons.scss";
+@import "partials/_variables";
+@import "partials/_servicecards";
+@import "partials/_mixins";
+@import "partials/_buttons";
 .nav-btn
 {
   width: $btn-width;
