@@ -14,12 +14,16 @@
     <body>
 
       <header class="p-3 bg-light text-black">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <img src = "img/f-logo.png" class = "logo" alt = "netmatters logo">
+        <div class="container row">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start header">
+            <img src = "img/f-logo.png" class = "logo ml-5" alt = "netmatters logo">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
             </a>
+
+            <div class = "phone">
+            <i class="fa-solid fa-phone-volume fa-2xl"></i>
+          </div>
 
             
     
@@ -30,9 +34,12 @@
               
             </ul>
     
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 align-right">
-              <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            <form class="av col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 d-flex">
+              <input type="search col-3" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+              <a class="button btn col-3 align-self-end" href="#" role="button"><i class="fa-solid fa-magnifying-glass"></i></a>
             </form>
+
+            <a class="button btn float-right" href="#" role="button"><i class="fa-solid fa-bars"></i></a>
     
             
           </div>
@@ -254,6 +261,7 @@
          <div class = "services container">
         <h1 class = "col-6">Latest News</h1>
         <h2 class = "col-6"><a href = "#">View All</a></h2>
+        
           <div class = "news-card1 col-4">
             <img class = "news-image" src = "img/newsimage.webp" alt = "Image demonstrating role of line support technician">
             <h3>2nd Line Support Technician</h3>
