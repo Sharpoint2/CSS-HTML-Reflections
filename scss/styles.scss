@@ -5,6 +5,64 @@
 @import "partials/_mixins";
 @import "partials/_buttons";
 
+
+
+
+//icon colour classes
+.grid-colour
+{
+color: #444;
+}
+
+.computer-colour
+{
+  color:#4183d7;
+}
+
+.bar-colour
+{
+  color: #2ecc71
+}
+
+.phone-colour
+{
+  color:#d64541;
+}
+
+.code-colour
+{
+  color:#926fb1
+}
+
+.shield-colour
+{
+  color:#de093f
+}
+
+.cap-colour
+{
+  color:#ce4125
+}
+
+//search bar
+.search
+{
+  
+width: 350px;
+
+border: 1px grey solid;
+border-right: none;
+}
+
+.nav-list
+{
+  list-style: none;
+  display:none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .header
 {
   width:100%
@@ -28,7 +86,8 @@
 .phone
 {
  margin-top: 5px;
-display: none;
+ margin-right: 20px;
+display: block;
 }
 
 .nav-btn
@@ -44,7 +103,10 @@ display: none;
   font-style: italic;
   color:white;
 }
-
+.bigger
+{
+    font-size: 1.438rem;
+}
 .review-writer
 {
  opacity:0.8;
@@ -55,7 +117,7 @@ display: none;
 
 .dropbtn-readmore1
 {
-  @include dropbtn;
+  
   margin-left: 0;
 
 }
@@ -64,13 +126,16 @@ display: none;
 {
   display: flex;
   float:left;
+  height:50%;
+  width:50%;
  
 }
 
-.navbar-style
+.navbar
 {
-height:2em;
-padding:25%;
+display:none;
+//height:1em;
+
 }
 
 .bold
@@ -93,22 +158,35 @@ padding:25%;
 
 .nav-button
 {
-  display:flex;
+  display:none;
   flex-wrap: wrap;
   margin: 0 5px 10px 5px;
 }
 
 .button {
-  background-color: grey; /* Green */
-  border: none;
-  color: white;
+  background-color: white; 
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+  border-right: 1px grey solid;
+  color: grey;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+  height:57.00px;
  
-  font-size: 16px;
+ 
   //margin: 4px 2px;
   cursor: pointer;
+}
+
+.menu-button
+{
+  background-color: #333645; 
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .footer-style
@@ -179,7 +257,12 @@ padding:25%;
 
 .jumbotron-style
 {
+  display:flex;
   background-image:url("../img/home-oaVs.webp");
+  height: 90vh;
+  
+  align-items: center;
+
  
 }
 
@@ -210,7 +293,7 @@ padding:25%;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+
 }
 
 // Change color of dropdown links on hover 
@@ -226,6 +309,8 @@ padding:25%;
 // On hover, displays menu. Navbar is hidden on smaller screens, so no need for on click. On focus for those hard of sight
 .dropbtn-readmore1:hover .dropdown:focus 
 {
+
+  background-color: #3e8e41;
   .dropdown-content 
   {
   display: flex;
@@ -250,17 +335,42 @@ a
 }
 
 //media queries
-@media (max-width:768px)
+
+@media(min-width:992px)
 {
+  .nav-list
+  {
+    display: flex;
+  }
+}
+
+@media (min-width:768px)
+{
+
+  .button
+  {
+    background-color: #333645;
+    color:white;
+  }
+
+  .jumbotron-style
+  {
+    align-items: left;
+  }
   .nav-button
   {
-    display: none;
+    display: block;
     
+  }
+
+  .navbar-style
+  {
+    display:block;
   }
 
   .phone
   {
-    display:block;
+    display:none;
   }
 
  

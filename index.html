@@ -15,7 +15,7 @@
 
       <header class="p-3 bg-light text-black">
         <div class="container row">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start header">
+          <div class="d-flex flex-wrap align-items-left justify-content-center justify-content-lg-start header">
             <img src = "img/f-logo.png" class = "logo ml-5" alt = "netmatters logo">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
@@ -26,19 +26,20 @@
         
           </div>
 
-          <a class="button btn float-right" href="#" role="button"><i class="fa-solid fa-bars"></i></a>
+       
     
             <ul class=" nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               
               <li><a class="btn-primary btn-lg ml-lg-3 mr-lg-3 nav-button" href="#" role="button"> <i class="fa-solid fa-computer-mouse"></i>    Support</a></li>
               <li><a class="btn-secondary btn-lg nav-button" href="#" role="button"><i class="fa-solid fa-paper-plane"></i>Contact</a></li>
-              
+              <div class = "col-2">
             </ul>
-    
-            <form class="av col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 d-flex">
-              <input type="search" class=" col-3 form-control form-control-dark" aria-label="Search">
-              <a class=" btn col-3 align-self-end button" href="#" role="button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <form class="av col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 d-flex">
+              <input type="search" class=" search" aria-label="Search" placeholder="Search"> 
+              <a class=" button" href="#" role="button"><i class="fa-solid fa-magnifying-glass"></i></a>
             </form>
+            <a class="menu-button btn float-right" href="#" role="button"><i class="fa-solid fa-bars"></i></a>
+          </div>
 
             
     
@@ -46,17 +47,17 @@
           </div>
         </div>
       </header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+      <div class = "navabar">
+
+    <nav class="navbar-light bg-dark row" >
        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navflex" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        
+      
+          <ul class = "nav-list">
 
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-sharp fa-solid fa-grid"></i>BESPOKE SOFTWARE</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-sharp fa-solid fa-grid grid-colour"></i><br>BESPOKE <p class = "bigger">SOFTWARE</p></button>
                 <div class="dropdown-content">
                   <a href="#">Workflow</a>
                   <a href="#">Automation</a>
@@ -73,7 +74,7 @@
             
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-display"></i>IT SUPPORT</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-display computer-colour"></i><br>IT <p class = "bigger"> SUPPORT</p></button>
                 <div class="dropdown-content">
                   <a href="#">Managed IT</a>
                   <a href="#">Business IT</a>
@@ -87,7 +88,7 @@
             
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-duotone fa-signal-bars"></i>DIGITAL MARKETING</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-duotone fa-signal-bars bar-colour"></i><br>DIGITAL <p class = "bigger"> MARKETING </p></button>
                 <div class="dropdown-content">
                   <a href="#">Search (SEO)</a>
                   <a href="#">Paid (PPC)</a>
@@ -101,7 +102,7 @@
             
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-phone-volume"></i>TELECOMS SERVICES</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-phone-volume phone-colour"></i><br>TELECOMS <p class = "bigger">SERVICES</p></button>
                 <div class="dropdown-content">
                   <a href="#">Business Mobile</a>
                   <a href="#">Hosted VoIP</a>
@@ -115,7 +116,7 @@
             
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-code"></i>WEB DESIGN</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-code code-colour"></i><br>WEB  <p class = "bigger">DESIGN</p></button>
                 <div class="dropdown-content">
                   <a href="#">Stylish Websites</a>
                   <a href="#">eCommerce Stores</a>
@@ -131,7 +132,7 @@
             
             <li class="nav-item">
               <div class="dropdown"> 
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-shield-quartered"></i>CYBER SECURITY</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-shield-quartered shield-colour"></i><br>CYBER  <p class = "bigger">SECURITY </p></button>
                 <div class="dropdown-content">
                   <a href="#">Assessment</a>
                   <a href="#">Management</a>
@@ -145,7 +146,7 @@
             
             <li class="nav-item">
               <div class="dropdown">
-                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-graduation-cap"></i>DEVELOPER COURSE</button>
+                <button class="dropbtn-readmore1 bg-dark dropdown"><i class="fa-solid fa-graduation-cap cap-colour"></i><br>DEVELOPER <p class = "bigger"> COURSE </p></button>
                 <div class="dropdown-content">
                   <a href="#">Train For a Career in Tech</a>
                   <a href="#">Scion Scheme Frequently Asked Questions</a>
@@ -157,7 +158,8 @@
             
           </ul>
         </div>
-      </nav>
+
+
 
         <main>
         
